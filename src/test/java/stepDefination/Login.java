@@ -23,6 +23,7 @@ public class Login
 		System.setProperty("webdriver.chrome.driver", strpath);
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		System.out.println("Maxmized");
 		
 	}
 	
